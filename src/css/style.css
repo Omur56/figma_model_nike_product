@@ -163,7 +163,6 @@ header {
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0%;
-
 }
 
 .snake_p_description {
@@ -241,7 +240,7 @@ header {
     position: relative;
     top: 60px;
     margin: 0 auto;
-    z-index: -1;
+
 }
 
 .main_title_text_div {
@@ -268,6 +267,7 @@ header {
     text-align: center;
     align-items: center;
     position: relative;
+    padding: 0 10px;
 }
 
 .main_section_cards {
@@ -285,20 +285,16 @@ header {
 .main_card_group {
     position: relative;
     display: flex;
-
 }
 
 .main_cart_divider {
     width: 880px;
-    height: 1257px;
+    height: 1057px;
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
     position: relative;
     top: 40px;
-    bottom: 0;
-    grid-area: 1 / 2 / 2 / 3;
-
-
 }
 
 .main_cart_img {
@@ -355,7 +351,7 @@ header {
     text-align: center;
     align-items: center;
     background-color: #F14F4F;
-    top: 40px;
+    top: 120px;
     left: 155px;
     margin: 0 auto;
     border-radius: 4px;
@@ -383,6 +379,7 @@ header {
     border: none;
     text-decoration: none;
     top: 22px;
+    cursor: pointer;
 }
 
 .main_section_cards_title_divider {
@@ -427,7 +424,6 @@ header {
     border-radius: 4px;
     top: 20px;
     display: flex;
-
 }
 
 .range_group {
@@ -554,7 +550,6 @@ header {
     width: 240px;
     height: 197px;
     border-radius: 4px;
-
     top: -20px;
 }
 
@@ -630,12 +625,21 @@ header {
 .reset_divider {
     position: relative;
     top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .reset_text {
     position: relative;
     font-size: 16px;
     color: #444B58;
+    cursor: pointer;
+}
+
+.reset_text:hover {
+    color: #0059fe;
+    cursor: pointer;
 }
 
 .main_section_cards_size_button_button {
@@ -651,10 +655,14 @@ header {
     border: none;
 }
 
+.main_section_cards_size_button_button:hover {
+    background-color: #0059fe;
+}
+
 .about_us_section {
     position: relative;
     height: 580px;
-    top: -150px;
+    top: 150px;
 }
 
 .about_us_section_divider_bg {
@@ -669,12 +677,11 @@ header {
     width: 680px;
     height: 580px;
     z-index: 0;
-
 }
 
 .circle_divider_group {
-    width: 550px;
-    height: 424px;
+    width: 50px;
+    height: 24px;
     position: relative;
     top: -300px;
     z-index: 999;
@@ -688,9 +695,9 @@ header {
     height: 644px;
     border-radius: 50%;
     background-color: transparent;
-    border: 1px solid #ffffff90;
-    top: 280px;
-    left: -750px;
+    border: 1px solid #ffffff50;
+    top: 240px;
+    left: -1120px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -704,9 +711,9 @@ header {
     height: 297px;
     border-radius: 50%;
     background-color: transparent;
-    border: 1px solid #ffffff90;
-    top: -250px;
-    left: -320px;
+    border: 1px solid #ffffff50;
+    top: -300px;
+    left: -520px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -721,8 +728,8 @@ header {
     height: 15px;
     border-radius: 50%;
     background-color: #F14F4F;
-    top: -320px;
-    left: -200px;
+    top: -380px;
+    left: -270px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -823,4 +830,282 @@ header {
     align-items: center;
     margin: 0 auto;
     top: -168px;
+}
+
+
+
+
+.catalog_section {
+    display: block;
+    position: relative;
+    width: 1180px;
+    height: 658px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    top: 320px;
+}
+
+.catalog_section_title_divider {
+    width: 1180px;
+    height: 700px;
+    border-radius: 4px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    top: -100px;
+    background-color: #FFF4EE;
+    padding: 0 100px;
+    z-index: 5;
+
+}
+
+.catalog_section_title {
+    position: relative;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    color: #000;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: -120px;
+}
+
+.catalog_section_text {
+    position: relative;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    color: #808080;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: 20px;
+}
+
+.catalog_line_models {
+    position: relative;
+    width: 980px;
+    height: 1px;
+    background-color: #808080;
+    top: -95px;
+}
+
+.catalog_line_models_2 {
+    position: relative;
+    width: 980px;
+    height: 1px;
+    background-color: #808080;
+    top: 400px;
+}
+
+.catalog_text_models_text {
+    position: relative;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    color: #444B58;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: -90px;
+}
+
+.model_catalog_card {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    width: 280px;
+    height: 154px;
+    border-radius: 4px;
+    top: 170px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.model_catalog_textcheck {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: -128px;
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+    top: 10px;
+}
+
+.model_catalog_text {
+    position: relative;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    color: #000;
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+    top: -18px;
+    left: 35px;
+}
+
+.catalog_text_models_text_bottom {
+    position: relative;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    color: #444B58;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: 390px;
+}
+
+.catalog_text_models_text_btn {
+    position: relative;
+    width: 251px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+    right: -365px;
+    top: 360px;
+
+}
+
+.catalog_text_models_text_btn:hover {
+    background-color: #F14F4F;
+}
+
+
+
+/* ----------------section-5--------------- */
+
+.galary_section_divider {
+   width: 1180px;
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   gap: 20px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin: 0 auto;
+  z-index: 0;
+   top: -340px;
+   
+
+}
+
+.galary_section{
+    display: flex;
+    position: relative;
+    height: 1190px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #484283;
+    top: 320px;
+}
+
+
+
+.galary_section_card {
+    width: 380px;
+    height: 480px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 1;
+    margin:0 auto;
+}
+
+.galary_section_img {
+    width: 380px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.galary_section_text {
+    position: relative;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 700;
+    color: #fff;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: 10px;
+}
+
+.galary_section_text_2 {
+    position: relative;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    color: #fff;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: 20px;
+}
+
+.galary_section_title_divider{
+    position: relative;
+    display: block;
+    justify-content: start;    
+    text-align: start;
+    align-items: start;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.galary_section_title{
+    position: relative;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-weight: 700;
+    color: #fff;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    top: -380px;
+}
+
+.circile_img{
+    position: relative;
+    width: 686px;
+    height:686px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 3;
+    left: 600px;
+    top: 186px;
+    background-color: #F14F4F;
 }
