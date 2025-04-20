@@ -18,6 +18,7 @@
 
 body {
     font-family: "Intro-Regular";
+    zoom: 75%;    
 }
 
 header {
@@ -1682,7 +1683,7 @@ header {
     align-items: center;
     margin: 0 auto;
     color: #ffffff;
-    gap: 40px;
+    gap: 30px;
     left: 230px;
 }
 
